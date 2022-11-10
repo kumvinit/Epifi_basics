@@ -1,5 +1,5 @@
 package practice5;
-
+//Program to interchange the value of two variables using third variable
 public class A {
     public static void main(String[] args) {
         //Exchange value of two variables using 3rd variable

@@ -1,5 +1,5 @@
 package practice4;
-
+//program to calculate result for (2+8)*(2+5+7)
 public class Calling {
     public int sum(int a, int b){
         int sumresult=a+b;
