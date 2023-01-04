@@ -1,5 +1,5 @@
 package string_Handling;
-
+//Compare last 10 characters of two Strings ignoring case
 public class A {
     public void String_value(int input)
     {
@@ -11,7 +11,11 @@ public class A {
         index2=s2.length()-10; //getting last 10 characters of 2nd string
         for (i=index1; i<s1.length(); i++){
             System.out.print(s1.charAt(i));
-
         }
+    }
+
+    public static void main(String[] args) {
+        A obj=new A();
+        obj.String_value(10);
     }
 }
